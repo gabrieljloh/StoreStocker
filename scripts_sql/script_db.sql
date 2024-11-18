@@ -126,6 +126,8 @@ INSERT INTO item (nome, descricao, preco, material, id_categoria, id_status) VAL
 ('Brinco de Ouro Rosé', 'Brinco pequeno com acabamento em ouro rosé.', 400.00, 'Ouro Rosé', 4, 1),
 ('Relógio Clássico', 'Relógio com design clássico e pulseira de aço.', 350.00, 'Aço', 5, 1);
 
+
+-- As inserções abaixo somente funcionam após a adição da trigger
 -- Inserções de estoque por balanço
 INSERT INTO documento (id_entrada_saida, motivo_balanco) VALUES
 (1, 'Balanço de estoque'),
@@ -179,7 +181,3 @@ INSERT INTO moviestoque (id_item, id_tipo_mov, id_entrada_saida, id_documento, q
 (5, 2, 2, 11, 5),
 (3, 2, 2, 12, 4),
 (7, 2, 2, 13, 20);
-
-
-
-
