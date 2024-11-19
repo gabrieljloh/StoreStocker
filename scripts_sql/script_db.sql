@@ -181,3 +181,5 @@ INSERT INTO moviestoque (id_item, id_tipo_mov, id_entrada_saida, id_documento, q
 (5, 2, 2, 11, 5),
 (3, 2, 2, 12, 4),
 (7, 2, 2, 13, 20);
+
+-- Essas inserções de estoque serão feitas dessa maneira por ser o script inicial com o banco, mas as próximas inserções de estoque serão feitas a partir da procedure criada.
