@@ -38,7 +38,7 @@ CREATE TABLE entradasaida (
 CREATE TABLE venda (
     id_venda SERIAL PRIMARY KEY,
     nome_cliente VARCHAR(100) NOT NULL,
-    metodo_pagamento VARCHAR(30) NOT NULL,
+    metodo_pagamento VARCHAR(30) NOT NULL
 );
 
 -- Tabela: documento
@@ -46,7 +46,7 @@ CREATE TABLE documento (
     id_documento SERIAL PRIMARY KEY,
     id_entrada_saida INT NOT NULL REFERENCES entradasaida(id_entrada_saida),
     motivo_balanco VARCHAR(200),
-    numero_nota INT,
+    numero_nota numeric(6,0),
     id_venda INT REFERENCES venda(id_venda)
 );
 
@@ -57,7 +57,7 @@ CREATE TABLE moviestoque (
     id_tipo_mov INT NOT NULL REFERENCES tipomov(id_tipo_mov),
     id_entrada_saida INT NOT NULL REFERENCES entradasaida(id_entrada_saida),
     id_documento INT NOT NULL REFERENCES documento(id_documento),
-    quantidade INT NOT NULL,
+    quantidade NUMERIC(5,0) NOT NULL,
     data_movi TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -65,7 +65,5 @@ CREATE TABLE moviestoque (
 CREATE TABLE saldoestoque (
     id_saldo_estoque SERIAL PRIMARY KEY,
     id_item INT NOT NULL REFERENCES item(id_item),
-    quantidade INT NOT NULL DEFAULT 0
+    quantidade numeric(5,0) NOT NULL DEFAULT 0
 );
-
-
