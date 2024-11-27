@@ -75,7 +75,7 @@ $procedure$
 -- Nota fiscal
 CALL estoque_teste.registrar_movimentacao(
     p_id_item := 1, 
-    p_id_tipo_mov := 3, 
+    p_id_tipo_mov := 1, 
     p_quantidade := 5, 
     p_tipo_documento := 'nota_fiscal', 
     p_numero_nota := 1001
@@ -84,7 +84,7 @@ CALL estoque_teste.registrar_movimentacao(
 -- Balanço
 CALL estoque_teste.registrar_movimentacao(
     p_id_item := 1, 
-    p_id_tipo_mov := 4, 
+    p_id_tipo_mov := 1, 
     p_quantidade := 50, 
     p_tipo_documento := 'balanco', 
     p_motivo_balanco := 'Ajuste de estoque'
