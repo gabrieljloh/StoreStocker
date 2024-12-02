@@ -3,7 +3,7 @@ SELECT i.nome,
 				i.descricao, 
 				i.preco, 
 				i.material, 
-				c.nome,
+				c.nome AS nome_categoria,
 				s.status_nome 
 			FROM item i 
 	INNER JOIN categoria c 
@@ -14,7 +14,7 @@ SELECT i.nome,
 
 	-- Verificar saldo de estoque do item e sua categoria
 	SELECT i.nome, 
-					c.nome, 
+					c.nome AS nome_categoria, 
 					s.quantidade 
 				FROM saldoestoque s
 		INNER JOIN item i
