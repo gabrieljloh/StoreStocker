@@ -45,6 +45,10 @@ O projeto utiliza o banco de dados [PostgreSQL](https://www.postgresql.org/downl
 ---
 
 ## **Código-Fonte do Sistema**
+# PARA RODAR O PROJETO DIGITE
+```
+php artisan serve
+```
 
 O sistema foi desenvolvido como um **projeto monolítico** utilizando as seguintes tecnologias:  
 - **Linguagem de programação**: PHP  
