@@ -1,4 +1,5 @@
-## Projeto Sistema de Atividades Especiais - GRUPO A
+
+## Projeto Estoque de E-commerce - GRUPO A
 
 ---
 
@@ -16,10 +17,10 @@
 
 O modelo físico foi desenvolvido utilizando a ferramenta [dbdiagram.io](https://dbdiagram.io/). Ele serviu como base para a exportação dos scripts DDL das tabelas e seus relacionamentos.  
 
-- **Arquivo fonte**: [Modelo Físico](https://dbdiagram.io/d/6561325e3be1495787b1c71a).  
+- **Arquivo fonte**: [Modelo Físico](https://dbdiagram.io/d/673537f4e9daa85aca608249).  
 - **Imagem do modelo**:  
 
-![Modelo Físico do Banco de Dados](https://github.com/jlsilva01/projeto_final_bd2_satc_2023/assets/484662/1fefa9fd-868c-4209-8cc5-d32cd73fa46d)  
+![Modelo Físico do Banco de Dados](images/Untitled.png)  
 
 ---
 
@@ -50,10 +51,9 @@ O sistema foi desenvolvido como um **projeto monolítico** utilizando as seguint
 - **Framework**: Laravel  
 - **Banco de Dados**: PostgreSQL hospedado no **Supabase**, garantindo acesso centralizado ao banco de dados para todos os usuários, sem a necessidade de criar o banco localmente a cada acesso.  
 
-O uso do Laravel, aliado ao design monolítico, facilitou a integração com o banco de dados e garantiu simplicidade no desenvolvimento do CRUD.  
+A escolha pelo Laravel possibilitou a implementação ágil de um sistema CRUD robusto e escalável, aproveitando suas ferramentas integradas, como Eloquent ORM, para interagir com o banco de dados de forma eficiente.
 
-O código-fonte do projeto pode ser acessado aqui: [Código Fonte](fonte/).  
-
+O código-fonte do projeto pode ser acessado aqui: [Código Fonte](https://github.com/joaovfe/Estoque).  
 ---
 
 ## **Relatório Final**
