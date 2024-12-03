@@ -35,12 +35,11 @@ O dicionário de dados contém informações detalhadas sobre as tabelas e índi
 
 O projeto utiliza o banco de dados [PostgreSQL](https://www.postgresql.org/download/), uma plataforma open source. Os scripts estão organizados por categoria:  
 
-- **DDL (Definição de Tabelas e Relacionamentos)**: [ddl.sql](scripts_sql/ddl.sql)  
-- **Índices**: [indices.sql](scripts_sql/indices.sql)  
-- **DML (Manipulação de Dados)**: [dml.sql](scripts_sql/dml.sql)  
-- **Triggers**: [triggers.sql](scripts_sql/triggers.sql)  
-- **Stored Procedures**: [stored_procedures.sql](scripts_sql/stored_procedures.sql)  
-- **Functions**: [functions.sql](scripts_sql/functions.sql)  
+- **DDL (Definição de Tabelas e Relacionamentos)**: [DDL](https://github.com/gabrieljloh/StoreStocker/blob/main/scripts_sql/script_DDL.sql)    
+- **DML (Manipulação de Dados)**: [DML](https://github.com/gabrieljloh/StoreStocker/blob/main/scripts_sql/script_DML.sql)  
+- **Triggers**: [Triggers](https://github.com/gabrieljloh/StoreStocker/blob/main/scripts_sql/triggers.sql)  
+- **Stored Procedures**: [Stores Procedures](https://github.com/gabrieljloh/StoreStocker/blob/main/scripts_sql/stored_procedures.sql)  
+- **Functions**: [Functions](https://github.com/gabrieljloh/StoreStocker/blob/main/scripts_sql/functions.sql)  
 
 ---
 
