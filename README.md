@@ -59,6 +59,6 @@ O código-fonte do projeto pode ser acessado aqui: [Código Fonte CRUD](https://
 ## **Relatório Final**
 
 O relatório final, com detalhes sobre o desenvolvimento do projeto, está disponível no arquivo:  
-- [Relatório Final](https://github.com/gabrieljloh/StoreStocker/blob/main/relatorio/StoreStocker%20-%20Estoque%20para%20E-commerce.docx)  
+- [Relatório Final](https://github.com/gabrieljloh/StoreStocker/blob/main/relat%C3%B3rio/StoreStocker%20-%20Estoque%20para%20E-commerce.pdf)  
 
 ---
