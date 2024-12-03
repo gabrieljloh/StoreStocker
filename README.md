@@ -45,7 +45,8 @@ O projeto utiliza o banco de dados [PostgreSQL](https://www.postgresql.org/downl
 ---
 
 ## **Código-Fonte do Sistema**
-# PARA RODAR O PROJETO DIGITE
+
+# **Para rodar o projeto digite no terminal dentro do repositório:**
 ```
 php artisan serve
 ```
