@@ -27,7 +27,7 @@ O modelo físico foi desenvolvido utilizando a ferramenta [dbdiagram.io](https:/
 ## **Dicionário de Dados**
 
 O dicionário de dados contém informações detalhadas sobre as tabelas e índices utilizados no projeto.  
-- **Arquivo do dicionário de dados**: [/dicionario_dados final.xlsx)](dicionario_dados/dicionario_dados final.xlsx).
+- **Arquivo do dicionário de dados**: [/dicionario_dados final.xlsx)](https://github.com/gabrieljloh/StoreStocker/blob/main/dicionario_dados/dicionario_dados%20final.xlsx).
 
 ---
 
