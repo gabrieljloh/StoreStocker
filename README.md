@@ -27,7 +27,7 @@ O modelo físico foi desenvolvido utilizando a ferramenta [dbdiagram.io](https:/
 ## **Dicionário de Dados**
 
 O dicionário de dados contém informações detalhadas sobre as tabelas e índices utilizados no projeto.  
-- **Arquivo do dicionário de dados**: [/dicionario_dados final.xlsx)](https://github.com/gabrieljloh/StoreStocker/blob/main/dicionario_dados/dicionario_dados%20final.xlsx).
+- **Arquivo do dicionário de dados**: [Dicionário de Dados](https://github.com/gabrieljloh/StoreStocker/blob/main/dicionario_dados/dicionario_dados%20final.xlsx).
 
 ---
 
@@ -59,6 +59,6 @@ O código-fonte do projeto pode ser acessado aqui: [Código Fonte CRUD](https://
 ## **Relatório Final**
 
 O relatório final, com detalhes sobre o desenvolvimento do projeto, está disponível no arquivo:  
-- [template1.docx](relatorio/template1.docx)  
+- [Relatório Final](https://github.com/gabrieljloh/StoreStocker/blob/main/relatorio/StoreStocker%20-%20Estoque%20para%20E-commerce.docx)  
 
 ---
