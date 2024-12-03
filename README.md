@@ -53,7 +53,7 @@ O sistema foi desenvolvido como um **projeto monolítico** utilizando as seguint
 
 A escolha pelo Laravel possibilitou a implementação ágil de um sistema CRUD robusto e escalável, aproveitando suas ferramentas integradas, como Eloquent ORM, para interagir com o banco de dados de forma eficiente.
 
-O código-fonte do projeto pode ser acessado aqui: [Código Fonte](https://github.com/joaovfe/Estoque).  
+O código-fonte do projeto pode ser acessado aqui: [Código Fonte CRUD](https://github.com/joaovfe/Estoque) [Código Fonte scripts](https://github.com/gabrieljloh/StoreStocker).  
 ---
 
 ## **Relatório Final**
