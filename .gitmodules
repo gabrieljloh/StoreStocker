@@ -1,0 +1,3 @@
+[submodule "Crud"]
+	path = Crud
+	url = https://github.com/joaovfe/Estoque
