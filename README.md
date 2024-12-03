@@ -1,6 +1,4 @@
-# **Projeto Sistema de Atividades Especiais - GRUPO A**
-
-Este projeto foi desenvolvido como parte do curso **[nome do curso]** para aplicar conceitos de banco de dados e desenvolvimento de sistemas. O sistema gerencia [descreva brevemente o objetivo principal do sistema].
+## Projeto Sistema de Atividades Especiais - GRUPO A
 
 ---
 
